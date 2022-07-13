@@ -8,21 +8,17 @@ body {
    background: #1B244A;
 }
 
-main{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 50vw;
-}
-
 .container {
    display: flex;
    justify-content: space-around;
+   align-items: center;
    width: 50vw;
-   height: 60%;
-   margin: auto;
+   height: 50vh;
    border: 5px solid red;
-   
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);  
 }
 
 .header{
@@ -30,7 +26,6 @@ main{
    font-size: 40px;
    letter-spacing: 3px;
    text-align: center;
-   margin-top: 60px;
 }
 
 .score {
@@ -69,33 +64,28 @@ button{
 
 /* Media Queries */
 
-@media (max-width: 768px) {
-   main{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 50vw;
-      transform: translateY(35%);
-   }
-   
-   .container {
-      display: flex;
-      justify-content: space-around;
-      width: 70vw;
-      height: 100%;
-      margin: auto;
-      border: 5px solid red;
-      
-   }
-   
+@media (max-width: 900px) {
+
+  .container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 80vw;
+   height: 60vh;
+   border: 5px solid red;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
    .header{
       color: #fff;
       font-size: 40px;
       letter-spacing: 3px;
       text-align: center;
-      margin-top: 60px;
    }
-   
+
    .score {
       height: 120px;
       width: 155px;
@@ -108,7 +98,7 @@ button{
       text-align: center;
       background-color: #000;  
    }
-   
+
    .btn{
       width: 155px;
       height: 45px;
@@ -116,7 +106,7 @@ button{
       display: flex;
       justify-content: space-between;
    }
-   
+
    button{
       width: 45px;
       color: #9AABD8;;
@@ -129,5 +119,4 @@ button{
       font-size: 18px;
       line-height: 28px;
    }
-   
 }
