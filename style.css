@@ -5,9 +5,10 @@
 }
 
 body {
-   background: #1B244A;
+   background-image: linear-gradient(to right, #000, #090979);
    width: 100vw;
    height: 100vh;
+   overflow: hidden;
 }
 
 
@@ -19,10 +20,13 @@ body {
    width: 575px;
    height: 385px;
    border: 5px solid red;
+   border-radius: 5%;
    position: fixed;
    top: 50%;
+   background:#1B244A;
    left: 50%;
-   transform: translate(-50%, -50%);  
+   transform: translate(-50%, -50%); 
+   box-shadow: 0px 0px 10px, 0px 0px -10px; 
 }
 
 
@@ -88,7 +92,7 @@ button{
 
    .header{
       color: #fff;
-      font-size: 30px;
+      font-size: 40px;
       letter-spacing: 2px;
       text-align: center;
    }
