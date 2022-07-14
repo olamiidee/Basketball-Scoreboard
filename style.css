@@ -70,14 +70,14 @@ button{
 /* Media Queries */
 
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
 
   .container {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      width: fit-content;
-      height: fit-content;
+      width: 90%;
+      height: 350px;
       border: 5px solid red;
       position: fixed;
       top: 50%;
@@ -87,14 +87,14 @@ button{
 
    .header{
       color: #fff;
-      font-size: 40px;
-      letter-spacing: 3px;
+      font-size: 30px;
+      letter-spacing: 2px;
       text-align: center;
    }
 
    .score {
-      height: 120px;
-      width: 155px;
+      height: 115px;
+      width: 150px;
       font-family: 'Cursed Timer ULiL';
       font-style: normal;
       font-weight: 400;
@@ -106,7 +106,7 @@ button{
    }
 
    .btn{
-      width: 155px;
+      width: 150px;
       height: 45px;
       margin-top: 15px;
       display: flex;
