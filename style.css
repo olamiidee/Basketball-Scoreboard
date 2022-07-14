@@ -6,6 +6,8 @@
 
 body {
    background: #1B244A;
+   width: 100vw;
+   height: 100vh;
 }
 
 .container {
@@ -64,14 +66,14 @@ button{
 
 /* Media Queries */
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
 
   .container {
       display: flex;
       justify-content: space-around;
       align-items: center;
       width: 80vw;
-      height: 400px;
+      height: 50vh;
       border: 5px solid red;
       position: fixed;
       top: 50%;
