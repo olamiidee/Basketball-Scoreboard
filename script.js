@@ -1,36 +1,37 @@
-let Count = 0;
-let display = document.getElementById("score-box")
-let display2 = document.getElementById("score-box2")
+let homeCount = 0;
+let guestCount = 0;
+
+let homePoints = document.getElementById("score-box");
+let guestPoints = document.getElementById("score-box2");
 
 
-function first() {
-   Count += 1
-   display.innerText = Count
+function homeFirstPoint() {
+   homeCount += 1
+   homePoints.innerText = homeCount
 }
 
-function second() {
-   Count += 2
-   display.innerText = Count
+function homeSecondPoint() {
+   homeCount += 2
+   homePoints.innerText = homeCount
 }
 
-function third() {
-   Count += 3
-   display.innerText = Count
+function homeThirdPoint() {
+   homeCount += 3
+   homePoints.innerText = homeCount
 }
 
 
-
-function fourth() {
-   Count += 1
-   display2.innerText = Count
+function guestFirstPoint() {
+   guestCount += 1
+   guestPoints.innerText = guestCount
 }
 
-function fifth() {
-   Count += 2
-   display2.innerText = Count
+function guestSecondPoint() {
+   guestCount += 2
+   guestPoints.innerText = guestCount
 }
 
-function sixth() {
-   Count += 3
-   display2.innerText = Count
+function guestThirdPoint() {
+   guestCount += 3
+   guestPoints.innerText = guestCount
 }
