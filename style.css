@@ -78,12 +78,16 @@ button{
 
 @media (max-width: 1200px) {
 
-  .container {
+  
+}
+
+@media (max-width: 768px) {
+   .container {
       display: flex;
       justify-content: space-around;
       align-items: center;
       width: 90%;
-      height: 60%;
+      height: 300px;
       border: 5px solid red;
       border-radius: 5%;
       position: fixed;
@@ -134,4 +138,3 @@ button{
       line-height: 28px;
    }
 }
-
